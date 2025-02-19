@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Website</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+      <p class="subtitle">Web designer's portfolio</p>
+      <h1 class="title">HI, MY NAME IS...</h1>
+      <p class="intro">歡迎參觀我的網頁，請瀏覽我的作品集···</p>
+      <div class="buttons">
+        <a class="button" href="#about">LEARN MORE</a>
+        <a class="button button-showy" href="#contact">SEND MESSAGE</a>
+      </div>
+    </header>
+    <section class="about" id="about">
+      <h2 class="heading">ABOUT ME</h2>
+      <p class="about-text">
+        初次見面，您好。本人目前正在日本從事設計師的工作。<br>
+        我從專業的設計學校畢業之後，便到設計公司從事相關的工作，現在則是自行接案。
+      </p>
+      <p class="about-text">
+        這個網站是為了我的作品製作的範例網站，主要是展示我個人的作品集。<br>
+        希望能透過這個網站，讓貴公司可以更了解我個人興趣和專業能力，如有任何問題歡迎隨時和我聯絡。
+      </p>
+    </section>
+    <section class="works">
+      <h2 class="heading">WORKS</h2>
+      <div class="works-wrapper">
+        <div class="work-box tree">
+          <img class="work-image" src="images/tree.jpg" alt="案例製作 1">
+          <div class="work-description">
+            <div class="work-description-inner">
+              <p class="work-text">
+                開始製作第一個案例。<br>
+                開始簡單的說明。<br>
+                使用的工具：XXX, XXX, XXX<br>
+                <a href="#" class="button button-ghost">READ MORE</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-box building">
+          <img class="work-image" src="images/building.jpg" alt="案例製作 2">
+          <div class="work-description">
+            <div class="work-description-inner">
+              <p class="work-text">
+                開始製作第二個案例。<br>
+                開始簡單的說明。<br>
+                使用的工具：XXX, XXX, XXX<br>
+                <a href="#" class="button button-ghost">READ MORE</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-box lake">
+          <img class="work-image" src="images/lake.jpg" alt="案例製作 3">
+          <div class="work-description">
+            <div class="work-description-inner">
+              <p class="work-text">
+                開始製作第三個案例。<br>
+                開始簡單的說明。<br >
+                使用的工具：XXX, XXX, XXX<br>
+                <a href="#" class="button button-ghost">READ MORE</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="work-box sky">
+          <img class="work-image" src="images/sky.jpg" alt="案例製作 4">
+          <div class="work-description">
+            <div class="work-description-inner">
+              <p class="work-text">
+                開始製作第四個案例。<br>
+                開始簡單的說明。<br>
+                使用的工具：XXX, XXX, XXX<br>
+                <a href="#" class="button button-ghost">READ MORE</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div><!--works-wrapper結束 -->
+    </section>
+
+    <section class="skills">
+      <h2 class="heading">MY SKILLS</h2>
+      <div class="skills-wrapper">
+        
+        <div class="skill-box">
+          <i class="skill-icon fa fa-lightbulb-o"></i>
+          <div class="skill-title">IDEA</div>
+          <p class="skill-text">
+            我喜歡思考事情。<br>
+            我喜歡嘗試和思考新事物，<br>
+            也有管理方面的經驗。
+          </p>
+        </div>
+        
+        <div class="skill-box">
+          <i class="skill-icon fa fa-paint-brush"></i>
+          <div class="skill-title">DESIGN</div>
+          <p class="skill-text">
+            我不只會設計美麗的外觀，<br>
+            也會考慮到容易使用、容易傳達資訊等方面。<br>
+            設計時都會先思考這些事情。
+          </p>
+        </div>
+        
+        <div class="skill-box">
+          <i class="skill-icon fa fa-code"></i>
+          <div class="skill-title">CODING</div>
+          <p class="skill-text">
+            我會寫 HTML/CSS 程式碼，<br>
+            給予元素正確的標籤，<br>
+            並考慮未來修改的彈性與強度。
+          </p>
+        </div>
+
+      </div><!--skills-wrapper結束 -->
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">CONTACT</h2>
+      <form action="" class="contact-form">
+        <input type="text" name="name" id="name">
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <input type="submit" value="SEND">
+      </form>
+    </section>
+
+    <footer class="footer">© My Personal Website</footer>
+</body>
+</html>
